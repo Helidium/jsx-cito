@@ -1,0 +1,52 @@
+{
+  "name": "jsx-cito",
+  "version": "0.1.0",
+  "description": "JSX for CitoJS templates",
+  "main": "main.js",
+  "dependencies": {
+    "commoner": "^0.10.0",
+    "jstransform": "^8.2.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-plumber": "^0.6.6",
+    "gulp-util": "~3.0.2",
+    "tape": "^3.4.0",
+    "through2": "~0.6.3"
+  },
+  "keywords": [
+    "jsx",
+    "citojs"
+  ],
+  "author": "Marko Biskup <marko.biskup@helidium.net> (https://github.com/helidium)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/helidium/jsx-cito.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "type": "MIT",
+      "url": "https://github.com/helidium/msx-optimized/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "node test/tests.js"
+  },
+  "bin": {
+    "jsx-bobril": "./bin/jsx-cito"
+  },
+  "bugs": {
+    "url": "https://github.com/helidium/jsx-cito/issues"
+  },
+  "homepage": "https://github.com/helidium/jsx-cito",
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT",
+  "_shasum": "70340c25b276d0519d7ec6422dcdcbc4f475712e",
+  "_from": "jsx-cito@*"
+}
