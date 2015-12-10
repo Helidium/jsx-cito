@@ -37,7 +37,7 @@
     "test": "node test/tests.js"
   },
   "bin": {
-    "jsx-bobril": "./bin/jsx-cito"
+    "jsx-cito": "./bin/jsx-cito"
   },
   "bugs": {
     "url": "https://github.com/helidium/jsx-cito/issues"
