@@ -1,6 +1,6 @@
 {
   "name": "jsx-cito",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "JSX for CitoJS templates",
   "main": "main.js",
   "dependencies": {

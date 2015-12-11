@@ -117,6 +117,8 @@ function visitReactTag(precompile, traverse, object, path, state) {
 		var attr = attributesObject[a];
 		if (attr.name.name == 'key') {
 			movedAttrs.push(attr);
+		} else if (attr.name.name == 'events') {
+			movedAttrs.push(attr);
 		} else if (attr.name.name == 'data') {
 			movedAttrs.push(attr);
 		} else if (attr.name.name == 'component') {
